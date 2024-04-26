@@ -42,7 +42,7 @@ public class CardPositiveTest {
 
     @Test
     public void shouldBeSuccessfulForm() {
-        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов Иван Иванович");
+        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иваныч-Иванович Иван");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79526456883");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
         driver.findElement(By.cssSelector("button.button")).click();
